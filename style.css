@@ -1,0 +1,129 @@
+#container{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+#text{
+   position: absolute;
+   top: 20%;
+   text-align: center;
+}
+.nav{
+    display: flex;
+}
+
+#bed{
+    display: flex;
+    gap: 200px;
+}
+.button{
+   background-color: green;
+   color: white;
+   border-radius: 20px; 
+}
+#icons{
+   display: flex; 
+   background-color: lightblue;
+   height: 150px;
+}
+.paintings{
+    display: flex;
+    gap: 300px;
+}
+.textile{
+    display: flex;
+    gap: 200px;
+}
+.machine{
+    display:flex;
+    gap: 200px;
+    background-color: lightblue;
+    height: 150px;
+}
+#img{
+    display: flex;
+    background-color: lightblue;
+    height: 100px;
+}
+.star{
+    display:flex;
+    gap: 100px;
+}
+#flower{
+    display: flex;
+    gap: 100px;
+}screen
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+#color{
+    width: 800px;
+    height: 300px;
+}
+@media screen and (min-width:375px) and (max-width:575px){
+    /* #container{
+        flex-direction: column;
+    }
+    #text{
+       flex-direction: column;
+}
+#bed{
+     flex-direction: column;
+    
+
+}
+.textile{
+     flex-direction: column;
+    
+}
+.machine{
+    flex-wrap: wrap;
+    width: 300px;
+    
+}
+
+#imaage{
+    width: 250px;
+    gap: none;
+}
+#icons{
+    
+    flex-wrap: wrap;
+    width: 300px;
+ }
+ #img{
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+ .paintings{
+    flex-direction: column;
+}
+#color{
+    width: 100px;
+    height: 100px;
+}
+#flower{
+    flex-direction: column;
+    width: 300px;
+    
+}
+#txt{
+    width: 200px;
+}
+.star{
+    flex-direction: column;
+    width: 300px;
+    
+}
+.nav{
+    flex-wrap: wrap;
+    width: 200px;
+}
+#txtt{
+    width: 200px;
+}
+
+} */
