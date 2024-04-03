@@ -1,20 +1,25 @@
-#container{
-    position: relative;
-    display: inline-block;
-    width: 100%;
+body{
+    font-size: larger;
 }
 #text{
    position: absolute;
    top: 20%;
    text-align: center;
+   color: white;
+  background-size: cover;
+
 }
+
+ 
+
 .nav{
     display: flex;
 }
 
 #bed{
     display: flex;
-    gap: 200px;
+    gap: 300px;
+    margin-bottom: 50px;
 }
 .button{
    background-color: green;
@@ -25,18 +30,34 @@
    display: flex; 
    background-color: lightblue;
    height: 150px;
+   gap: 70px;
 }
 .paintings{
     display: flex;
-    gap: 300px;
+    gap: 400px;
+    
 }
+#ul{
+    gap: 30px;
+}
+#cup{
+    display: flex;
+    gap: 50px;
+}
+#icn{
+    color: white;
+    background-color: white;
+    height: 30px;
+}
+
 .textile{
     display: flex;
-    gap: 200px;
+    gap: 300px;
+    margin-bottom: 100px;
 }
 .machine{
     display:flex;
-    gap: 200px;
+    gap: 300px;
     background-color: lightblue;
     height: 150px;
 }
@@ -45,25 +66,71 @@
     background-color: lightblue;
     height: 100px;
 }
+#coch{
+    height: 400px;
+}
+#container{
+    position: relative;
+    margin-bottom: 50px;
+}
+
 .star{
     display:flex;
-    gap: 100px;
+    gap: 300px;
+}
+#RR{
+    background-color: black;
+}
+h3{
+    text-align: center;
+}
+hr{
+    border: solid;
+    margin: 10px;
 }
 #flower{
     display: flex;
-    gap: 100px;
-}screen
-.footer{
+    gap: 350px;
+}
+#Screen{
     display: flex;
-    background-color: black;
+    gap: 200px;
+}
+#bedp{
+    height: 300px;
+    width: 300px;
+
+}
+#cap{
+    text-align: center;
+    margin-bottom: 100px;
+}
+#words{
+    display: flex;
+    background-color:black;
     color: white;
+    
 }
 #color{
     width: 800px;
     height: 300px;
 }
-@media screen and (min-width:375px) and (max-width:575px){
-    /* #container{
+
+
+.contact{
+    display: flex;
+    gap: 20px;
+}
+#contain{
+    position: relative;
+}
+#txt{
+    position: absolute;
+    top:10%
+}
+
+@media screen and (min-width:390px) and (max-width:575px){
+     #container{
         flex-direction: column;
     }
     #text{
@@ -80,50 +147,23 @@
 }
 .machine{
     flex-wrap: wrap;
-    width: 300px;
+    
     
 }
 
-#imaage{
-    width: 250px;
-    gap: none;
-}
+
 #icons{
     
     flex-wrap: wrap;
-    width: 300px;
+    
  }
  #img{
     flex-wrap: wrap;
-    width: 300px;
+    
 }
 
  .paintings{
     flex-direction: column;
 }
-#color{
-    width: 100px;
-    height: 100px;
-}
-#flower{
-    flex-direction: column;
-    width: 300px;
     
 }
-#txt{
-    width: 200px;
-}
-.star{
-    flex-direction: column;
-    width: 300px;
-    
-}
-.nav{
-    flex-wrap: wrap;
-    width: 200px;
-}
-#txtt{
-    width: 200px;
-}
-
-} */
